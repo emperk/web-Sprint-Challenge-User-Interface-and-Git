@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+        /* CSS RESET */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,6 +49,8 @@ table {
 	border-spacing: 0;
 }
 
+    /*  UNIVERSAL    */
+
 * {
     box-sizing: border-box;
 }
@@ -71,6 +75,32 @@ p {
     margin: 0 auto;
 }
 
+        /*    HEADER CSS      */
+
+#head-contain {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0% 4% 0%;
+}
+
+/* #logo {
+    padding-right: 3%;
+} */
+
+#nav-contain {
+    padding-top: 2%;
+    width: 70pc;
+}
+
+a.block {
+    text-decoration: none;
+    color: black;
+    padding: 0em 2.2em 0em 2.2em;
+}
+
+
+        /*    TOP 2 PARA CONTENT SECTION CSS   */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +114,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+        /*   BOX CONTENT SECTION CSS   */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +144,8 @@ p {
     justify-content: center;
 }
 
+        /*    BOTTOM 3 CONTAINER SECTION CSS   */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +159,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+        /*    FOOTER CSS      */
 
 footer {
     width: 100%;
