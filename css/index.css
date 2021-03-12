@@ -130,9 +130,6 @@ a.block {
     padding: 0 2%;
 }
 
-
-
-
         /*   BOX CONTENT SECTION CSS   */
 
 .middle-content {
@@ -167,8 +164,27 @@ a.block {
 
 .thisBox {
     margin-bottom: 20px;
+    padding-bottom: 4%;
     border-bottom: 1px dashed black;
 }
+
+.info-title {
+    padding-top: 0.5em;
+}
+
+.info-para {
+    padding-bottom: 6%;
+}
+
+.learn-button {
+    padding: 2% 6%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
 
 #box1 {
     background: teal;
