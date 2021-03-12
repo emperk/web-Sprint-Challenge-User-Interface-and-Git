@@ -144,6 +144,15 @@ a.block {
     justify-content: center;
 }
 
+.box-content {
+    display: flex;
+}
+
+.thisBox {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
 #box1 {
     background: teal;
 }
@@ -220,3 +229,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
