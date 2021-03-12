@@ -242,6 +242,12 @@ a.block {
     padding-right: 0;
 }
 
+        /*    WORK TOGETHER SECTION IN ABOUT PAGE CSS      */
+
+#work {
+    padding: 2em 1em 2em 1em;
+}
+
         /*    FOOTER CSS      */
 
 footer {
