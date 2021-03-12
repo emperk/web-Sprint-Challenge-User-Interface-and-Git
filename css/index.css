@@ -99,7 +99,7 @@ a.block {
 }
 
 
-        /*    TOP 2 PARA CONTENT SECTION CSS   */
+        /*    TOP 2 PARA CONTENT SECTION IN INDEX CSS   */
 
 .top-content {
     display: flex;
@@ -115,6 +115,23 @@ a.block {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+        /*        ABOUT SECTION CSS IN ABOUT          */
+
+#about-contain {
+    padding: 2%;
+}
+
+#about-title {
+    padding-bottom: 2%;
+}
+
+#about-info {
+    padding: 0 2%;
+}
+
+
+
 
         /*   BOX CONTENT SECTION CSS   */
 
