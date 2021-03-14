@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+        /* CSS RESET */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,6 +49,8 @@ table {
 	border-spacing: 0;
 }
 
+    /*  UNIVERSAL    */
+
 * {
     box-sizing: border-box;
 }
@@ -71,12 +75,39 @@ p {
     margin: 0 auto;
 }
 
+        /*    HEADER CSS      */
+
+#head-contain {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0% 4% 0%;
+}
+
+/* #logo {
+    padding-right: 3%;
+} */
+
+#nav-contain {
+    padding-top: 2%;
+    width: 70pc;
+}
+
+a.block {
+    text-decoration: none;
+    color: black;
+    padding: 0em 2.2em 0em 2.2em;
+}
+
+
+        /*    TOP 2 PARA CONTENT SECTION IN INDEX CSS   */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 3%;
 }
 
 .top-content .text-container {
@@ -84,6 +115,22 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+        /*        ABOUT SECTION CSS IN ABOUT          */
+
+#about-contain {
+    padding: 2%;
+}
+
+#about-title {
+    padding-bottom: 2%;
+}
+
+#about-info {
+    padding: 0 2%;
+}
+
+        /*   BOX CONTENT SECTION CSS   */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +151,83 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box-content {
+    display: flex;
+}
+
+.thisBox {
+    margin-bottom: 20px;
+    padding-bottom: 4%;
+    border-bottom: 1px dashed black;
+    
+}
+
+.info-title {
+    padding-top: 0.5em;
+}
+
+.info-para {
+    padding-bottom: 6%;
+}
+
+.learn-button {
+    padding: 2% 6%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+        /*    BOTTOM 3 CONTAINER SECTION CSS   */
 
 .bottom-content {
     display: flex;
@@ -125,6 +242,14 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+        /*    WORK TOGETHER SECTION IN ABOUT PAGE CSS      */
+
+#work {
+    padding: 2em 1em 2em 1em;
+}
+
+        /*    FOOTER CSS      */
 
 footer {
     width: 100%;
@@ -144,3 +269,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
